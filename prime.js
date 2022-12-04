@@ -1,4 +1,4 @@
-function primenumber(n){
+  let n=3
   let count=0;
   for(let i=1;i<=n;i++){
     if(n%i==0){
@@ -6,9 +6,8 @@ function primenumber(n){
     }
   }
   if(count==2){
-    console.log(n,"not prime number")
+    console.log(n," prime number")
   }
   else{
-    console.log(n,"number is prime")
+    console.log(n,"number is not prime")
   }
-}
