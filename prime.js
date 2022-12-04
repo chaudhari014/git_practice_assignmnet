@@ -6,9 +6,9 @@ function primenumber(n){
     }
   }
   if(count==2){
-    console.log(n,"not prime number")
+    console.log(n," prime number")
   }
   else{
-    console.log(n,"number is prime")
+    console.log(n,"number is not prime")
   }
 }
